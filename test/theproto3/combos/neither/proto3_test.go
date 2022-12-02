@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2015, The GoGo Authors. All rights reserved.
-// http://github.com/gogo/protobuf
+// http://github.com/alkiranet/gogo-protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -32,7 +32,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/alkiranet/gogo-protobuf/proto"
 )
 
 func TestNilMaps(t *testing.T) {

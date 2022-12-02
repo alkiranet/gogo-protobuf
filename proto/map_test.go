@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gogo/protobuf/proto"
-	ppb "github.com/gogo/protobuf/proto/proto3_proto"
+	"github.com/alkiranet/gogo-protobuf/proto"
+	ppb "github.com/alkiranet/gogo-protobuf/proto/proto3_proto"
 )
 
 func TestMap(t *testing.T) {

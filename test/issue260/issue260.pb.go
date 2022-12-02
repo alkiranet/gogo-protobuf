@@ -5,10 +5,10 @@ package issue260
 
 import (
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
-	proto "github.com/gogo/protobuf/proto"
-	_ "github.com/gogo/protobuf/types"
-	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
+	_ "github.com/alkiranet/gogo-protobuf/gogoproto"
+	proto "github.com/alkiranet/gogo-protobuf/proto"
+	_ "github.com/alkiranet/gogo-protobuf/types"
+	github_com_gogo_protobuf_types "github.com/alkiranet/gogo-protobuf/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

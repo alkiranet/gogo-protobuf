@@ -8,16 +8,16 @@ For a comparison run:
 
 followed by [benchcmp](http://code.google.com/p/go/source/browse/misc/benchcmp benchcmp) on the resulting files:
 
-    $GOROOT/misc/benchcmp $GOPATH/src/github.com/gogo/protobuf/test/mixbench/marshal.txt $GOPATH/src/github.com/gogo/protobuf/test/mixbench/marshaler.txt
-    $GOROOT/misc/benchcmp $GOPATH/src/github.com/gogo/protobuf/test/mixbench/unmarshal.txt $GOPATH/src/github.com/gogo/protobuf/test/mixbench/unmarshaler.txt
+    $GOROOT/misc/benchcmp $GOPATH/src/github.com/alkiranet/gogo-protobuf/test/mixbench/marshal.txt $GOPATH/src/github.com/alkiranet/gogo-protobuf/test/mixbench/marshaler.txt
+    $GOROOT/misc/benchcmp $GOPATH/src/github.com/alkiranet/gogo-protobuf/test/mixbench/unmarshal.txt $GOPATH/src/github.com/alkiranet/gogo-protobuf/test/mixbench/unmarshaler.txt
 
-Benchmarks ran on Revision:  11c56be39364
+Benchmarks ran on Revision: 11c56be39364
 
 June 2013
 
-Processor 2,66 GHz Intel Core i7 
+Processor 2,66 GHz Intel Core i7
 
-Memory 8 GB 1067 MHz DDR3 
+Memory 8 GB 1067 MHz DDR3
 
 ## Marshaler
 

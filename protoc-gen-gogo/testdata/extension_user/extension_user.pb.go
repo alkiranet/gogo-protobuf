@@ -5,9 +5,9 @@ package extension_user
 
 import (
 	fmt "fmt"
-	proto "github.com/gogo/protobuf/proto"
-	extension_base "github.com/gogo/protobuf/protoc-gen-gogo/testdata/extension_base"
-	extension_extra "github.com/gogo/protobuf/protoc-gen-gogo/testdata/extension_extra"
+	proto "github.com/alkiranet/gogo-protobuf/proto"
+	extension_base "github.com/alkiranet/gogo-protobuf/protoc-gen-gogo/testdata/extension_base"
+	extension_extra "github.com/alkiranet/gogo-protobuf/protoc-gen-gogo/testdata/extension_extra"
 	math "math"
 )
 
