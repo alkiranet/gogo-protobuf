@@ -1303,10 +1303,10 @@ func (p *unmarshal) Generate(file *generator.FileDescriptor) {
 
 	p.ioPkg = p.NewImport("io")
 	p.mathPkg = p.NewImport("math")
-	p.typesPkg = p.NewImport("github.com/alkiranet/gogo-protobuf/types")
+	p.typesPkg = p.NewImport("github.com/gogo/protobuf/types")
 	p.binaryPkg = p.NewImport("encoding/binary")
 	fmtPkg := p.NewImport("fmt")
-	protoPkg := p.NewImport("github.com/alkiranet/gogo-protobuf/proto")
+	protoPkg := p.NewImport("github.com/gogo/protobuf/proto")
 	if !gogoproto.ImportsGoGoProto(file.FileDescriptorProto) {
 		protoPkg = p.NewImport("github.com/golang/protobuf/proto")
 	}

@@ -92,9 +92,10 @@ not print their values, while the generated String method will always print all 
 package stringer
 
 import (
+	"strings"
+
 	"github.com/alkiranet/gogo-protobuf/gogoproto"
 	"github.com/alkiranet/gogo-protobuf/protoc-gen-gogo/generator"
-	"strings"
 )
 
 type stringer struct {
@@ -126,8 +127,8 @@ func (p *stringer) Generate(file *generator.FileDescriptor) {
 	fmtPkg := p.NewImport("fmt")
 	stringsPkg := p.NewImport("strings")
 	reflectPkg := p.NewImport("reflect")
-	sortKeysPkg := p.NewImport("github.com/alkiranet/gogo-protobuf/sortkeys")
-	protoPkg := p.NewImport("github.com/alkiranet/gogo-protobuf/proto")
+	sortKeysPkg := p.NewImport("github.com/gogo/protobuf/sortkeys")
+	protoPkg := p.NewImport("github.com/gogo/protobuf/proto")
 	for _, message := range file.Messages() {
 		if !gogoproto.IsStringer(file.FileDescriptorProto, message.DescriptorProto) {
 			continue
